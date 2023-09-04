@@ -14,7 +14,7 @@ int check_cycle(listint_t *list)
 		return (0);
 	while (one && two && two->next)
 	{
-		one = two->next;
+		one = one->next;
 		two = two->next->next;
 		if (one == two)
 			return (1);
