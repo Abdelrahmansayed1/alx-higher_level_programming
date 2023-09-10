@@ -3,7 +3,6 @@
 if __name__ == "__main__":
     """Print the length of arguments and values."""
     import sys
-
     c = len(sys.argv) - 1
     if c == 0:
         print("0 arguments.")
