@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    new_matrix = matrix.copy()
-
-    for i in range(len(matrix)):
-        new_matrix[i] = list(map(lambda x: x**2, matrix[i]))
-    return (new_matrix)
+def search_replace(my_list, search, replace):
+    new_list = my_list
+    for i in range(len(new_list)):
+        if new_list[i] == search:
+            new_list[i] = replace
+    return(new_list)
 
     
